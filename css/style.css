@@ -1,0 +1,95 @@
+*{
+    font-family: mooli;
+}
+
+
+.navbar{
+    height: 10vh;
+}
+
+.main{
+    height: 90vh;
+}
+
+nav{
+    color: #dddddd;
+}
+
+nav .active, nav .nav-link:hover{
+    color: #700B97  !important;
+    text-decoration: underline;
+} 
+
+.row{
+    height: 90%;
+}
+
+.main-left, .main-right{
+    width: 100%;
+    height: 100%;
+}
+
+.container img{
+    width: 90%;
+    height: 80%;
+}
+
+@media screen and (max-width:800px){
+    .main-left, .main-right{
+        width: 50vh;
+        height: 50vh;
+    }
+}
+
+.sec-purple{
+    color: #DDDDDD !important;
+}
+
+/* .name{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+} */
+
+.typewriter-effect {
+    display: flex;
+    justify-content: center;
+    font-family: monospace;
+  }
+  
+  .typewriter-effect > .text {
+    max-width: 0;
+    animation: typing 3s steps(var(--characters)) infinite;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .typewriter-effect::after {
+    content: " |";
+    animation: blink 1s infinite;
+    animation-timing-function: step-end;
+  }
+  
+  @keyframes typing {
+    75%,
+    100% {
+      max-width: calc(var(--characters) * 1ch);
+    }
+  }
+  
+  @keyframes blink {
+    0%,
+    75%,
+    100% {
+      opacity: 1;
+    }
+    25% {
+      opacity: 0;
+    }
+  }
+
+  /* about section */
+
+  .about{
+    height: 100vh;
+  }
