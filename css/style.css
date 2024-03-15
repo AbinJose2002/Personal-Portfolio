@@ -49,6 +49,14 @@ nav{
         width: 50vh;
         height: 50vh;
     }
+
+    .navbar{
+      height: 40vh;
+    }
+
+    .main{
+      height: 60vh;
+    }
 }
 
 .sec-purple{
