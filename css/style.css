@@ -13,19 +13,21 @@ body{
 }
 
 .navbar{
-    height: 10vh;
+    height: 20vh;
     font-size: 1em;
 }
 
 .main{
-    height: 90vh;
+    height: 80vh;
 }
 
 nav{
     color: #dddddd;
 }
 
-nav .active, nav .nav-link:hover{
+.nav-item:hover{
+  transform: scale(1.1);
+  border-bottom: 1px solid #dddddd;
 } 
 
 .row{
