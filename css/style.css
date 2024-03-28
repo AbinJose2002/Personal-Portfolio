@@ -13,12 +13,12 @@ body{
 }
 
 .navbar{
-    height: 20vh;
+    height: 15vh;
     font-size: 1em;
 }
 
 .main{
-    height: 80vh;
+    height: 85vh;
 }
 
 nav{
@@ -42,6 +42,10 @@ nav{
 .container img{
     width: 90%;
     height: 80%;
+}
+
+.navbar-toggler-icon {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
 }
 
 @media screen and (max-width:800px){
